@@ -6,7 +6,7 @@ class Solution:
 
         def helper(num: int) -> str:
             if num == 0:
-                return "Zero"
+                return ""
             elif num < 10:
                 return a[num]
             elif num < 20:
